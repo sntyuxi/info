@@ -1,1 +1,2 @@
-# https://gh-proxy.com/https://raw.githubusercontent.com/sntyuxi/info/main/
+# https://gh-proxy.com/
+https://raw.githubusercontent.com/sntyuxi/info/main/
