@@ -1,11 +1,12 @@
 Githua 仓库 : https://raw.githubusercontent.com/sntyuxi/info/main/
 加速器:  https://gh-proxy.com/
 
-MAIN : https://gh-proxy.com/https://raw.githubusercontent.com/sntyuxi/info/main/main.js
-ui 加速器地址 : https://gh-proxy.com/https://raw.githubusercontent.com/sntyuxi/info/main/ui.js
-info加速地址 : https://gh-proxy.com/https://raw.githubusercontent.com/sntyuxi/info/main/info.json  //0.JS 188
+MAIN : https://gh-proxy.com/https://raw.githubusercontent.com/sntyuxi/info/main/main.js           //修改ui 6
+ui 加速器地址 : https://gh-proxy.com/https://raw.githubusercontent.com/sntyuxi/info/main/ui.js     //修改js 568
+0.js : https://gh-proxy.com/https://raw.githubusercontent.com/sntyuxi/info/main/0.js             //修改info 188
+info加速地址 : https://gh-proxy.com/https://raw.githubusercontent.com/sntyuxi/info/main/info.json  //修改 dati_tiku(tiku_json)
 
-
+https://gh-proxy.com/https://raw.githubusercontent.com/sntyuxi/info/main/tiku_json_20230202.txt
 https://gh-proxy.com/https://raw.githubusercontent.com/sntyuxi/info/main/dati_tiku_20230121.txt
 
 架构: MAIN.js---UI.js---0.js---info.json----dati_tiku(tiku_json)
