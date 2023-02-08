@@ -15,7 +15,7 @@ ui.layout(
     <drawer id="drawer">
         <vertical>
             <appbar>
-                <toolbar id="toolbar" bg="#ff4fb3ff" title="匠成助手  天天向上"/>
+                <toolbar id="toolbar" bg="#ff4fb3ff" title="匠成助手  GitHub天天向上"/>
                 <tabs id="tabs" bg="#ff4fb3ff"/>
             </appbar>
             <viewpager id="viewpager">
