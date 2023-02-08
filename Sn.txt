@@ -1,1 +1,4 @@
-https://raw.githubusercontent.com/sntyuxi/info/main/info.json
+https://raw.githubusercontent.com/sntyuxi/info/main
+加速器: https://gh-proxy.com/
+ui 加速器地址 : https://gh-proxy.com/https://raw.githubusercontent.com/sntyuxi/info/main/ui.js'
+info加速地址 : https://gh-proxy.com/https://raw.githubusercontent.com/sntyuxi/info/main/info.json  //0.JS 188
