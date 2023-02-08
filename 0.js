@@ -2,8 +2,6 @@ auto.waitFor(); //mode = "fast"
 var delay_time = 3000;
 device.wakeUpIfNeeded();
 
-// 下载更新题库info.json 题库 188
-
 // 读取自定义配置
 var TTXS_PRO_CONFIG = storages.create("TTXS_PRO_CONFIG");
 var watchdog = TTXS_PRO_CONFIG.get("watchdog", "1800");
