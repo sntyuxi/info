@@ -1,4 +1,4 @@
-// // 下载并运行所选脚本0.js 568
+//下载并运行所选脚本0.js 568
 "ui";
 
 importClass(java.net.HttpURLConnection);
