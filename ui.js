@@ -565,6 +565,7 @@ ui.start.click(function () {
         //let url = 'https://gh-proxy.com/https://raw.githubusercontent.com/sec-an/Better-Auto-XXQG/main/' + ui.script_chosen.getSelectedItemPosition() + '.js';
         //let url = 'https://agit.ai/smtyuxi2002/apps/raw/branch/main/'+ui.script_chosen.getSelectedItemPosition()+'.js';
         //execution = engines.execScript("匠成学习强助手", http.get(url).body.string());
+        //let url = 'https://https://raw.iqiq.io/sntyuxi/info/main/' + ui.script_chosen.getSelectedItemPosition() + '.js';
         let url = 'https://gh-proxy.com/https://raw.githubusercontent.com/sntyuxi/info/main/' + ui.script_chosen.getSelectedItemPosition() + '.js';
         execution = engines.execScript("Yu_You_GitHub助手", http.get(url).body.string());
     });
