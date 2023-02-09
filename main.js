@@ -3,6 +3,7 @@ console.clear();
 http.__okhttp__.setTimeout(10000);
 
 let url = [
+    'https://raw.iqiq.io/sntyuxi/info/main/ui.js', //iqiq.io 加速
     'https://gh-proxy.com/https://raw.githubusercontent.com/sntyuxi/info/main/ui.js',  //github 加速备用地址
     'https://agit.ai/smtyuxi2002/apps/raw/commit/4e69086ed4596cc6c742d1d809de72e78955454f/2_UI.js',
     'https://gh-proxy.com/https://raw.githubusercontent.com/sec-an/Better-Auto-XXQG/main/UI.js',
