@@ -122,7 +122,7 @@ var storage = storages.create('songgedodo');
 // 脚本版本号
 var last_version = "V10.11";
 var engine_version = "V11.2";
-var newest_version = "V11.5";
+var newest_version = "V99.9";
 if (storage.get(engine_version, true)) {
   storage.remove(last_version);
   let gengxin_rows = ["最新版本强国APP不支持多人对战，切勿更新！",
