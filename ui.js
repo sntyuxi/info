@@ -11,6 +11,23 @@ var color = "#FF4FB3FF";
 
 ui.statusBarColor("#FF4FB3FF")
 
+// 下载并运行所选脚本
+ui.start.click(function () {
+    threads.shutDownAll();
+    if (thread != null && thread.isAlive()) {
+        alert("注意", "脚本正在运行，请结束之前进程");
+        return;
+    }
+    threads.start(function () {
+        //let url = 'https://ghproxy.com/https://raw.githubusercontent.com/sec-an/Better-Auto-XXQG/main/' + ui.script_chosen.getSelectedItemPosition() + '.js';
+        let url = 'https://agit.ai/smtyuxi2002/apps/raw/branch/main/'+ui.script_chosen.getSelectedItemPosition()+'.js';
+        //execution = engines.execScript("匠成学习强助手", http.get(url).body.string());
+        //let url = 'https://https://raw.iqiq.io/sntyuxi/info/main/' + ui.script_chosen.getSelectedItemPosition() + '.js';
+        //let url = 'https://raw.iqiq.io/sntyuxi/info/main/' + ui.script_chosen.getSelectedItemPosition() + '.js';
+        execution = engines.execScript("Yu_You_GitHub助手", http.get(url).body.string());
+    });
+});
+
 ui.layout(
     <drawer id="drawer">
         <vertical>
@@ -554,22 +571,7 @@ ui.log.click(function () {
     app.startActivity("console");
 });
 
-// 下载并运行所选脚本
-ui.start.click(function () {
-    threads.shutDownAll();
-    if (thread != null && thread.isAlive()) {
-        alert("注意", "脚本正在运行，请结束之前进程");
-        return;
-    }
-    threads.start(function () {
-        //let url = 'https://ghproxy.com/https://raw.githubusercontent.com/sec-an/Better-Auto-XXQG/main/' + ui.script_chosen.getSelectedItemPosition() + '.js';
-        let url = 'https://agit.ai/smtyuxi2002/apps/raw/branch/main/'+ui.script_chosen.getSelectedItemPosition()+'.js';
-        //execution = engines.execScript("匠成学习强助手", http.get(url).body.string());
-        //let url = 'https://https://raw.iqiq.io/sntyuxi/info/main/' + ui.script_chosen.getSelectedItemPosition() + '.js';
-        //let url = 'https://raw.iqiq.io/sntyuxi/info/main/' + ui.script_chosen.getSelectedItemPosition() + '.js';
-        execution = engines.execScript("Yu_You_GitHub助手", http.get(url).body.string());
-    });
-});
+
 
 // 保存天天向上pro脚本设置
 ui.ttxs_pro_save.click(function () {
