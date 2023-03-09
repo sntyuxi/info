@@ -186,8 +186,8 @@ fInfo("设置屏幕常亮");
 device.keepScreenOn(3600 * 1000);
 // 下载题库
 fInfo("检测题库更新");
-const update_info = get_tiku_by_http("https://gitcode.net/m0_64980826/songge_tiku/-/raw/master/info.json"); //天天向上源代码
-//const update_info = get_tiku_by_http("https://raw.iqiq.io/sntyuxi/info/main/tiku/info.json"); // IQIQ代理info
+//const update_info = get_tiku_by_http("https://gitcode.net/m0_64980826/songge_tiku/-/raw/master/info.json"); //天天向上源代码
+const update_info = get_tiku_by_http("https://raw.iqiq.io/sntyuxi/info/main/tiku/info.json"); // IQIQ代理info
 //const update_info = get_tiku_by_http("https://ghproxy.com/https://raw.githubusercontent.com/sntyuxi/info/main/tiku/info.json"); //ghproxy.com代理info
 //const update_info = get_tiku_by_http("https://gitcode.net/m0_70474352/info/-/raw/master/info.json");
 //解析异常
