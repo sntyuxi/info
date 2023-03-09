@@ -191,6 +191,7 @@ const update_info = get_tiku_by_http("https://gitcode.net/m0_64980826/songge_tik
 //const update_info = get_tiku_by_http("https://ghproxy.com/https://raw.githubusercontent.com/sntyuxi/info/main/tiku/info.json"); //ghproxy.com代理info
 //const update_info = get_tiku_by_http("https://gitcode.net/m0_70474352/info/-/raw/master/info.json");
 //解析异常
+const update_info = get_tiku_by_http("https://ghproxy.com/https://raw.githubusercontent.com/sntyuxi/info/main/tiku/info.json"); //ghproxy.com代理info
 //const update_info = get_tiku_by_http("https://agit.ai/smtyuxi2002/apps/raw/branch/main/info.json"); 
 //const update_info = get_tiku_by_http("https://raw.iqiq.io/sntyuxi/info/main/info.json"); //GitHub 解析不了
 fInfo("正在加载对战题库......请稍等\n题库版本:" + update_info["tiku_version"]);
