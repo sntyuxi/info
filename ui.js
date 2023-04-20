@@ -15,7 +15,7 @@ ui.layout(
     <drawer id="drawer">
         <vertical>
             <appbar>
-                <toolbar id="toolbar" bg="#ff4fb3ff" title="GitHub.com_ui.js_小謝info_天天向上"/>
+                <toolbar id="toolbar" bg="#ff4fb3ff" title="GitHub_ui.js_0.js_tiku_info(引用小谢）"/>
                 <tabs id="tabs" bg="#ff4fb3ff"/>
             </appbar>
             <viewpager id="viewpager">
