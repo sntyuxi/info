@@ -15,7 +15,7 @@ ui.layout(
     <drawer id="drawer">
         <vertical>
             <appbar>
-                <toolbar id="toolbar" bg="#ff4fb3ff" title="ui.js_0.js_tiku_小谢info"/>
+                <toolbar id="toolbar" bg="#ff4fb3ff" title="ui.js+iqiq_0.js_tiku_小谢info"/>
                 <tabs id="tabs" bg="#ff4fb3ff"/>
             </appbar>
             <viewpager id="viewpager">
