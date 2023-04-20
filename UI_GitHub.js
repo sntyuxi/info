@@ -960,7 +960,7 @@ function getScript(choice) {
         //'https://gh-proxy.com/https://raw.githubusercontent.com/sec-an/Better-Auto-XXQG/main/',
         //"https://ghproxy.com/https://raw.githubusercontent.com/sec-an/Better-Auto-XXQG/main/",          //ghproxy.com 代理
         //'https://agit.ai/smtyuxi2002/apps/raw/branch/main/',                                           //调用agit.ai/smtyuxi2002/apps /2_UI.js---->TTXS.info.json
-        //'https://raw.iqiq.io/sntyuxi/info/main/',                                                      //Github iqiq.io 代理 main/0.JS---> TTXS.info.json
+        'https://raw.iqiq.io/sntyuxi/info/main/',                                                      //Github iqiq.io 代理 main/0.JS---> TTXS.info.json
         //'https://cdn.jsdelivr.net/gh/sec-an/Better-Auto-XXQG@main/',
         //'https://raw.githubusercontent.com/sec-an/Better-Auto-XXQG/main/',
     ];
