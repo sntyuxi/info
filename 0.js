@@ -149,7 +149,10 @@ device.keepScreenOn(3600 * 1000);
 // 下载题库
 fInfo("检测题库更新");
 fInfo("如果不动就是正在下载，多等会");
-const update_info = get_tiku_by_http("https://gitcode.net/m0_64980826/songge_tiku/-/raw/master/info.json");
+//const update_info = get_tiku_by_http("https://gitcode.net/m0_64980826/songge_tiku/-/raw/master/info.json");
+//https://github.com/J-Mully/TechXueXi 直接引用这个大哥的github——info】//
+const update_info = get_tiku_by_http("https://ghp.ci/https://raw.githubusercontent.com/J-Mully/TechXueXi/main/info.json"); //使用info调用，
+//const update_info = get_tiku_by_http("https://ghp.ci/https://raw.githubusercontent.com/sntyuxi/info/main/info.json"); //使用info调用， 这个是自己的
 fInfo("正在加载对战题库......请稍等\n题库版本:" + update_info["tiku_version"]);
 var tiku = [];
 try {
